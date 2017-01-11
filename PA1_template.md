@@ -88,7 +88,7 @@ plot(AvgIntervalSteps$interval, AvgIntervalSteps$steps, type="l", axes=F, xlab="
   title(main="Average Daily Activity Pattern")
 ```
 
-![plot of chunk unnamed-chunk-59](figure/unnamed-chunk-59-1.png)
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
 
 On an average, maximum activity is at 
 
@@ -150,7 +150,7 @@ ggplot  (data=NewActivity, aes(x=imputedsteps)) +
                color="red", linetype="dashed", size=1)
 ```
 
-![plot of chunk unnamed-chunk-65](figure/unnamed-chunk-65-1.png)
+![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png)
 
 ## Are there differences in activity patterns between weekdays and weekends?
 ## Infer whether date in data is a weekday or weekend
@@ -170,7 +170,7 @@ xyplot(steps~interval|weeklabel,
         main="Activity Patterns")
 ```
 
-![plot of chunk unnamed-chunk-66](figure/unnamed-chunk-66-1.png)
+![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png)
 
 
 ## There is a marked difference in activity patterns between Weekdays and Weekends. Activity starts earlier on weekdays, but tapers off around 8:00 am with a small burst in the evening; on weekends, activity starts later, but there are periods of activity for most of the day, tapering off in the evening.
