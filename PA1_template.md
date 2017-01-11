@@ -99,7 +99,16 @@ which.max(AvgIntervalSteps[,2])
 ```
 ## [1] 104
 ```
-##Activity starts around 5:00 am and spikes ay 8:35 and slows down after 6:30
+
+```r
+AvgIntervalSteps[which.max(AvgIntervalSteps[,2]),]
+```
+
+```
+##     interval    steps
+## 104      835 206.1698
+```
+##Activity starts around 5:00 am and spikes at 8:35 and slows down after 6:30
 
 ## Imputing missing values
 

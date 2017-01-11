@@ -173,9 +173,12 @@ plot(AvgIntervalSteps$interval, AvgIntervalSteps$steps, type=&quot;l&quot;, axes
 <p>On an average, maximum activity is at</p>
 <pre class="r"><code>which.max(AvgIntervalSteps[,2])</code></pre>
 <pre><code>## [1] 104</code></pre>
+<pre class="r"><code>AvgIntervalSteps[which.max(AvgIntervalSteps[,2]),]</code></pre>
+<pre><code>##     interval    steps
+## 104      835 206.1698</code></pre>
 </div>
-<div id="activity-starts-around-500-am-and-spikes-ay-835-and-slows-down-after-630" class="section level2">
-<h2>Activity starts around 5:00 am and spikes ay 8:35 and slows down after 6:30</h2>
+<div id="activity-starts-around-500-am-and-spikes-at-835-and-slows-down-after-630" class="section level2">
+<h2>Activity starts around 5:00 am and spikes at 8:35 and slows down after 6:30</h2>
 </div>
 <div id="imputing-missing-values" class="section level2">
 <h2>Imputing missing values</h2>
